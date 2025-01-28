@@ -99,8 +99,8 @@ export default function SubscriptionStatus() {
       </div>
 
       {showQR && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg p-6 max-w-sm w-full">
+        <div className="fixed inset-0 bg-white/50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg p-6 max-w-sm w-full shadow-2xl">
             <img
               src="/src/images/qr.png"
               alt="QR Code"

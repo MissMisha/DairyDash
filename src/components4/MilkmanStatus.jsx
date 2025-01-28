@@ -30,7 +30,7 @@ export default function MilkmanStatus() {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
-      {/* Payment Notification */}
+  
       {showNotification && (
         <div className="fixed top-4 right-4 flex items-center gap-3 bg-white rounded-lg shadow-lg p-4 z-50">
           <div className="bg-red-500 p-2 rounded-lg">
@@ -66,7 +66,7 @@ export default function MilkmanStatus() {
             <button className="mt-4 py-1 rounded-lg text-[#4a5565] bg-[#9fe7e1] hover:bg-[#8fd6d0] transition-colors">Edit</button>
           </div>
 
-          {/* February 16 Card */}
+
           <div className="bg-white rounded-lg p-6 flex flex-col">
             <h2 className="font-medium mb-4">16 February</h2>
             <div className="aspect-[4/3] rounded-lg overflow-hidden mb-4 flex-grow">
@@ -83,7 +83,7 @@ export default function MilkmanStatus() {
             <button className="mt-4 py-1 rounded-lg text-[#4a5565] bg-[#9fe7e1] hover:bg-[#8fd6d0] transition-colors">Edit</button>
           </div>
 
-        {/* Calendar Section */}
+
         <div className="bg-white rounded-lg shadow-sm p-6">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-lg font-semibold">
@@ -99,7 +99,7 @@ export default function MilkmanStatus() {
             </div>
           </div>
 
-          {/* Calendar Grid */}
+
           <div className="grid grid-cols-7 gap-2 text-sm">
             {calendar.weekDays.map((day, index) => (
               <div key={index} className="text-center text-gray-500 py-2">
@@ -121,7 +121,6 @@ export default function MilkmanStatus() {
             ))}
           </div>
 
-          {/* Action Buttons */}
           <div className="flex gap-4 mt-8">
             <button className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-[#9FE7E1] text-gray-600 rounded-md hover:bg-[#8fd6d0] transition-colors">
               <Settings className="h-4 w-4" />
