@@ -59,7 +59,7 @@ export default function Mainheader() {
           <div
             key={index}
             className={`absolute w-full h-full transition-opacity duration-700 ease-in-out ${
-              index === currentSlide ? "opacity-65" : "opacity-0"
+              index === currentSlide ? "opacity-90" : "opacity-0"
             }`}
           >
             <img
