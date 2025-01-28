@@ -6,6 +6,7 @@ import Homepage from "./Homepage";
 import Profile from "./Profile";
 import Milkmandash from "./Milkmandash";
 import Consumers from "./Consumers";
+import MilkmanListing from "./MilkmanListing";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/milkman" element={<Milkmandash />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/consumers" element={<Consumers></Consumers>} />
+            <Route path="/milkmanlist" element={<MilkmanListing></MilkmanListing>} />
         </Routes>
         </main>
         <Footer />

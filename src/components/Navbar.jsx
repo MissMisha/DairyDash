@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom'
+import { User } from "lucide-react"
 import React from 'react'
 
 
@@ -37,7 +38,7 @@ const Navbar = () => {
           </div>
     <div className="flex-grow"></div>
     <div className="hidden items-center justify-center gap-6 md:flex">
-      <a href="#" className="rounded-md px-0 py-1.5 font-dm text-sm font-medium text-white transition-transform duration-200 ease-in-out hover:scale-[1.03]">
+      {/* <a href="#" className="rounded-md px-0 py-1.5 font-dm text-sm font-medium text-white transition-transform duration-200 ease-in-out hover:scale-[1.03]">
           <img 
         src="src/images/milkman-icon-removebg-preview.png" 
         loading="lazy" 
@@ -61,7 +62,18 @@ const Navbar = () => {
         style={{ color: "transparent"}} 
         width="39" 
         height="39" />
-      </a>
+      </a> */}
+      <div className="flex flex-col sm:flex-row gap-4">
+      <button className="flex items-center justify-center gap-2 px-6 py-3 bg-[#9FE7E1] text-gray-700 rounded-xl hover:bg-[#8fd6d0] transition-colors text-sm">
+        <User className="h-5 w-5" />
+        Milkman Sign In
+      </button>
+      <a href='/profile'>
+      <button className="flex items-center justify-center gap-2 px-6 py-3 bg-[#9FE7E1] text-gray-700 rounded-xl hover:bg-[#8fd6d0] transition-colors text-sm">
+        <User className="h-5 w-5" />
+        Consumer Sign In
+      </button></a>
+    </div>
     </div>
     <div className="relative flex items-center justify-center md:hidden">
       <button type="button">

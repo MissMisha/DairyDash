@@ -26,7 +26,7 @@ export default function SubscriptionStatus() {
     <div className="max-w-7xl mx-auto p-6">
       <h1 className="text-2xl font-bold text-center mb-8">Subscription Status</h1>
 
-      {/* Subscription Table */}
+
       <div className="bg-white rounded-lg shadow-sm overflow-hidden mb-6">
         <table className="w-full">
           <thead>
@@ -78,13 +78,13 @@ export default function SubscriptionStatus() {
         </table>
       </div>
 
-      {/* New Subscription Button */}
+
       <button className="mb-6 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors flex items-center gap-2">
         <Plus className="h-5 w-5" />
         New Subscription
       </button>
 
-      {/* Total Bill Section */}
+
       <div className="bg-[#E5F9F7] rounded-lg p-6 max-w-sm">
         <h2 className="text-lg font-medium mb-2">Total Bill</h2>
         <p className="text-2xl font-bold mb-1">₹ Rs. 1600</p>
@@ -98,7 +98,6 @@ export default function SubscriptionStatus() {
         </button>
       </div>
 
-      {/* QR Code Modal */}
       {showQR && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-lg p-6 max-w-sm w-full">

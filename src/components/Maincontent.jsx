@@ -33,7 +33,7 @@ function Maincontent() {
         We prioritize user safety and data integrity. Our platform incorporates robust verification processes to ensure the authenticity of user profiles and the legitimacy of information shared. This includes identity checks, and ongoing monitoring to detect and prevent fraudulent activity.
         </p>
         <div className='my-5'>
-        <a href="#" className="rounded-lg  px-3 py-1.5 font-dm text-md text-white transition-transform duration-200 ease-in-out hover:scale-[1.03]"
+        <a href="/milkmanlist" className="rounded-lg  px-3 py-1.5 font-dm text-md text-white transition-transform duration-200 ease-in-out hover:scale-[1.03]"
         style = {{background: "#a8dadc",color:"#24595b"}}>Try Now</a>
         <a href="#" className="rounded-lg mx-2 px-3 py-1.5 font-dm text-md text-[#4c7071] transition-transform duration-200 ease-in-out hover:scale-[1.03]">Learn More</a>
         </div>

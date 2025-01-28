@@ -34,7 +34,7 @@ export default function Navbar4() {
             </div>
       <div className="flex-grow"></div>
 
-        {/* Right Side Icons */}
+       
         <div className="flex items-center gap-4">
           <button className="p-2 text-gray-600 hover:text-gray-900 rounded-full hover:bg-gray-100">
             <Search size={20} />

@@ -10,20 +10,20 @@ export default function MilkmanStatus() {
     {
       date: "15 February",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6JFvC3xgtyUJUngE4R60Ky1zj61gGL.png",
-      deliveryDate: "Oct 15, 2023",
+      deliveryDate: "Feb 15, 2025",
       quantity: "2 litres",
     },
     {
       date: "16 February",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6JFvC3xgtyUJUngE4R60Ky1zj61gGL.png",
-      deliveryDate: "Oct 20, 2023",
+      deliveryDate: "Feb 20, 2025",
       quantity: "3 litres",
     },
   ]
 
   const calendar = {
     month: "February",
-    year: "2022",
+    year: "2025",
     days: Array.from({ length: 28 }, (_, i) => i + 1),
     weekDays: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
   }
@@ -49,7 +49,7 @@ export default function MilkmanStatus() {
       <h1 className="text-3xl font-bold text-center mb-8">Milk Delivery Tracker</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Delivery Cards */}
+     
         <div className="bg-white rounded-lg p-6 flex flex-col">
             <h2 className="font-medium mb-4">15 February</h2>
             <div className="aspect-[4/3] rounded-lg overflow-hidden mb-4 flex-grow">
@@ -60,7 +60,7 @@ export default function MilkmanStatus() {
               />
             </div>
             <div className="space-y-1 text-gray-600 text-sm">
-              <p>Delivery Date: Oct 15, 2023</p>
+              <p>Delivery Date: Feb 15, 2025</p>
               <p>Quantity: 2 litres</p>
             </div>
             <button className="mt-4 py-1 rounded-lg text-[#4a5565] bg-[#9fe7e1] hover:bg-[#8fd6d0] transition-colors">Edit</button>
@@ -77,7 +77,7 @@ export default function MilkmanStatus() {
               />
             </div>
             <div className="space-y-1 text-gray-600 text-sm">
-              <p>Delivery Date: Oct 20, 2023</p>
+              <p>Delivery Date: Feb 16, 2025</p>
               <p>Quantity: 3 litres</p>
             </div>
             <button className="mt-4 py-1 rounded-lg text-[#4a5565] bg-[#9fe7e1] hover:bg-[#8fd6d0] transition-colors">Edit</button>
